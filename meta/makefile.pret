@@ -3,6 +3,7 @@
 @prefix : <http://ontologi.es/doap-deps#>.
 
 `Types-DualVar`
+	:runtime-requirement    [ :on "perl 5.006001"^^:CpanId ];
 	:runtime-requirement    [ :on "Type::Tiny 1.008000"^^:CpanId ];
 	:runtime-requirement    [ :on "Scalar::Util"^^:CpanId ];
 	:test-requirement       [ :on "Test::More 0.96"^^:CpanId ];
